@@ -5,3 +5,4 @@ function updateClock(){
     let currentMinutes = currentTime.getMinutes();
     let currentSeconds = currentTime.getSeconds();
     currentMinutes = (currentMinutes < 10  ? "0" : "") + currentMinutes;
+    currentHour = (currentHour < 10  ? "0" : "") + currentHour;
