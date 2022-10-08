@@ -7,3 +7,4 @@ function updateClock(){
     currentMinutes = (currentMinutes < 10  ? "0" : "") + currentMinutes;
     currentHour = (currentHour < 10  ? "0" : "") + currentHour;
     currentSeconds = (currentSeconds < 10  ? "0" : "") + currentSeconds;
+    let TimeOfDay = (currentHour < 12) ? "AM" : "PM";
