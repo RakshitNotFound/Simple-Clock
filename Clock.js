@@ -9,3 +9,7 @@ function updateClock(){
     currentSeconds = (currentSeconds < 10  ? "0" : "") + currentSeconds;
     let TimeOfDay = (currentHour < 12) ? "AM" : "PM";
     let currentTimeStr = currentHour + ":" + currentMinutes +":" + currentSeconds + " " + TimeOfDay;
+    document.getElementById("Clock").innerHTML = currentTimeStr;
+
+
+}
