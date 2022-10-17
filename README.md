@@ -1,2 +1,2 @@
 # Simple-Clock
-A simple clock w/ HTML and JavaScript
+A normal clock w/ HTML and JavaScript
